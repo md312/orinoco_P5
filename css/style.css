@@ -16,7 +16,7 @@
     margin-bottom: 200px;
 }
 .image{
-    max-width: 50%;
+    width: 40%;
 }
 
 /*Text styles*/
@@ -49,6 +49,9 @@ body{
 /*Cart Style*/
 .img-product-cart{
     max-width: 20%;
+}
+.btn-danger{
+    width: 50%;
 }
 .th-img{
     max-width: 100px;
@@ -117,6 +120,10 @@ body{
         font-size: 1.2rem;
     }
 
+    .btn-danger{
+        width: 50%;
+    }
+
      /*Page Confirmation*/
      .confirm-title{
          font-size: 1.8rem;
@@ -150,5 +157,8 @@ body{
     .center-button{
         display: flex;
         justify-content: center;
+    }
+    .btn-danger{
+        width: 50%;
     }
   }

@@ -44,6 +44,7 @@ function canAddItem(items, name) {
 
 /*Fonction qui permet d'ajouter un article au local Storage */
 function addToCart() {
+  console.log("toto");
   let productsInCart = JSON.parse(localStorage.getItem("identifiants"));
   /*Si le panier est vide*/
   if (productsInCart === null) {
@@ -73,3 +74,4 @@ function addToCart() {
 /*Ajouter au panier via le clic sur le bouton*/
 let indexCart = document.getElementById("button-cart");
 indexCart.onclick = addToCart;
+

@@ -1,6 +1,4 @@
-
 /* -------------- Création de la page d'Accueil en récupérant les éléments de l'API -------------------*/
-
 function getNames() {
   /*Va chercher l'adresse de l'API*/
   fetch("http://localhost:3000/api/teddies")
@@ -16,7 +14,7 @@ function getNames() {
               '<img class="image img-fluid mb-1 col-lg-4" src="' + data[element].imageUrl + '" alt = ours en peluche>'
               + '<div class = "price col-lg-2 mb-1">' + data[element].price / 100 + " €" + "</div>"
               /*Mise en place des paramètres de requête de l'URl en cliquant sur le bouton "Détails"*/
-              + "<div class = 'button-details col-lg-3 mb-1'><a href='http://127.0.0.1:5500/details.html?id=" + data[element]._id + "' class='btn btn-pink'> Détails </a></div></div>";
+              + "<div class = 'button-details col-lg-3 mb-1'><a href='details.html?id=" + data[element]._id + "' class='btn btn-pink'> Détails </a></div></div>";
             document.getElementById("productList").innerHTML = html;
           }
         });
