@@ -1,0 +1,154 @@
+
+/*Background styles*/
+.header{
+    background-color: #f3e9f1;
+    margin-bottom: 3rem;
+}
+.footer{
+    background-color: #f3e9f1; 
+}
+.produit{
+    background-color: #ffffff86; 
+}
+
+/*Structure*/
+.main-container{
+    margin-bottom: 200px;
+}
+.image{
+    max-width: 50%;
+}
+
+/*Text styles*/
+body{
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 1.2rem;
+}
+.price{
+    font-weight: 600;
+}
+
+
+/*Product details styles*/
+.btn-pink{
+    background-color: #f3e9f1;
+    width: 100%;
+}
+
+/*Product Page */
+.details{
+    margin-bottom: 2rem;
+}
+.button-cart{
+    max-width: 50%;
+}
+.image-details{
+    max-width: 90%;
+}
+
+/*Cart Style*/
+.img-product-cart{
+    max-width: 20%;
+}
+.th-img{
+    max-width: 100px;
+    min-height: 80px;}
+#totalCart{
+    font-size: 1.5rem;
+    font-weight: 800;
+}
+
+/*Page de confirmation*/
+.container-confirm{
+    margin-bottom: 150px;
+}
+.img-merci{
+    max-width: 400px;
+}
+.amount-spend{
+    font-size: 1.5rem;
+}
+.btn-pink-confirm{
+    width: 20%;
+} 
+
+/*----------------------- Media queries - Téléphone --------------------------*/
+
+/*Page Index*/
+
+@media screen and (max-width: 766px) {
+    .image {
+      max-width: 100%;
+    }
+    body{
+        font-family: 'Josefin Sans', sans-serif;
+        font-size: 1.2rem;
+        height: 100vh;
+    }
+    .btn-pink{
+        background-color: #f3e9f1;
+        width: 100%;
+    }
+    .logo-orinoco, .logo-cart {
+        max-width: 60%;
+    }
+
+    /*Page Détails*/
+    .body-details{
+        font-size: 1.2rem;
+    }
+    .container-details{
+        margin-bottom: 150px;
+    
+    }
+    .image-details{
+        max-width: 100%;
+    }
+    .center-button{
+        display: flex;
+        align-items: center;
+    }
+
+    /*Page Cart*/
+    .body-cart{
+        font-size: 1rem;
+    }    
+    .cart-titles{
+        font-size: 1.2rem;
+    }
+
+     /*Page Confirmation*/
+     .confirm-title{
+         font-size: 1.8rem;
+     }
+     .img-merci{
+        max-width: 300px;
+    }
+}
+
+/*----------------------- Media queries - IPAD --------------------------*/
+
+@media screen and (max-width: 991px) and (min-width: 766px) {
+    
+    /*Page Index*/
+    .logo-orinoco, .logo-cart {
+        max-width: 100%;
+    }
+    .btn-pink{
+        background-color: #f3e9f1;
+        width: 40%;
+    }
+   
+    /*Média queries - Page Détails*/
+    .container-details{
+        margin-bottom: 150px;
+    
+    }
+    .image-details{
+        max-width: 100%;
+    }
+    .center-button{
+        display: flex;
+        justify-content: center;
+    }
+  }
